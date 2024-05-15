@@ -1,4 +1,4 @@
-module publishgo
+module hellobrew
 
 go 1.19
 
