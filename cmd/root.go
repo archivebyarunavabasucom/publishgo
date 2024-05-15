@@ -16,7 +16,7 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "publishgo",
 	Short: "A brief description of your application",
-	Long: `it is a new update`,
+	Long: `it is a new update 0.0.6`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
