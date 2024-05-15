@@ -19,7 +19,7 @@ universal_binaries:
 
 brews:
   -
-    name: archivebyarunavabasucom
+    name: hellobrew
     homepage: https://github.com/archivebyarunavabasucom/homebrewtaps
     tap:
       owner: archivebyarunavabasucom
