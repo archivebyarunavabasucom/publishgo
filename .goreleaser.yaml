@@ -1,0 +1,32 @@
+builds:
+  - binary: hellobrew
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -mod=vendor
+
+release:
+  prerelease: auto
+
+universal_binaries:
+  - replace: true
+
+brews:
+  -
+    name: archivebyarunavabasucom
+    homepage: https://github.com/archivebyarunavabasucom/homebrewtaps
+    tap:
+      owner: archivebyarunavabasucom
+      name: homebrewtaps
+    commit_author:
+      name: arunavabasucom
+      email: arunavabasudev@gmail.com
+
+checksum:
+  name_template: 'checksums.txt'
